@@ -1,0 +1,67 @@
+/* Aparência geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #82e4e4;
+    text-align: center;
+    padding: 70px;
+}
+
+/* Caixa da calculadora */
+.calculator {
+    background-color: #587CFA;
+    width: 250px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px;
+}
+
+/* Visor da calculadora */
+#display {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #A8DEFF;
+}
+
+/* Organização dos botões */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+/* Aparência dos botões */
+button {
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #A8DEFF;
+}
+
+/* Botão de resultado */
+.equal {
+    background-color: lightblue;
+}
+
+/* Link para voltar ao currículo */
+a {
+    font-size: 16px;
+    color: #0c5c7b;
+    text-decoration: solid;
+    background-color: #A8DEFF;
+    border: solid #46b7e4 2px;
+    box-shadow: 0px 2px 8px black;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 100px;
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}

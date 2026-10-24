@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+
+    <!-- Conectar ao CSS -->
+    <link rel="stylesheet" href="clcstyle.css">
+
+    <!-- Conectar ao JavaScript -->
+    <script src="clcscript.js" defer></script>
+</head>
+
+<body>
+    
+    <div class="calculator">
+        <input type="text" id="display" disabled aria-label="Resultado da calculadora" placeholder="CALDULADORA      ">
+
+        <div class="buttons">
+            <button type="button" onclick="clearDisplay()">C</button>
+            <button type="button" onclick="deleteLast()">DEL</button>
+            <button type="button" onclick="appendOperator('/')">/</button>
+            <button type="button" onclick="appendNumber('7')">7</button>
+
+            <button type="button" onclick="appendNumber('8')">8</button>
+            <button type="button" onclick="appendNumber('9')">9</button>
+            <button type="button" onclick="appendOperator('*')">*</button>
+            <button type="button" onclick="appendNumber('4')">4</button>
+
+            <button type="button" onclick="appendNumber('5')">5</button>
+            <button type="button" onclick="appendNumber('6')">6</button>
+            <button type="button" onclick="appendOperator('-')">-</button>
+            <button type="button" onclick="appendNumber('1')">1</button>
+
+            <button type="button" onclick="appendNumber('2')">2</button>
+            <button type="button" onclick="appendNumber('3')">3</button>
+            <button type="button" onclick="appendOperator('+')">+</button>
+            <button type="button" onclick="appendNumber('0')">0</button>
+
+            <button type="button" onclick="appendNumber('.')">.</button>
+            <button type="button" onclick="calculateResult()" class="equal">=</button>
+        </div>
+
+    </div>
+    <br><br>
+    <a href="../CURRICULO.HTML/curriculo.html/index.htm"> << - VOLTAR AO CURRICULO!</a>
+    <script src="script.js"></script>
+</body>
+
+</html>
